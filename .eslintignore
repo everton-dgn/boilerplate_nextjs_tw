@@ -6,11 +6,13 @@ yarn.lock
 .gitattributes
 coverage
 .tsBuildInfoFile
-.stylelintcache
+vite.config.mts
 vitest.config.mts
 vitest.setup.ts
 next.config.js
-stylelint.config.js
+tailwind.config.ts
+postcss.config.js
 next-env.d.ts
 playwright.config.ts
 playwright-report
+prettier.config.js

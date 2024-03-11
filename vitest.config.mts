@@ -1,9 +1,7 @@
-import { defineConfig } from 'vitest/config'
-import react from '@vitejs/plugin-react-swc'
-import tsconfigPaths from 'vite-tsconfig-paths'
+import { defineConfig, mergeConfig } from 'vitest/config'
+import viteConfig from './vite.config.mjs'
 
-export default defineConfig({
-  plugins: [tsconfigPaths(), react()],
+export default mergeConfig(viteConfig, defineConfig({
   test: {
     deps: {
       optimizer: {
@@ -22,8 +20,5 @@ export default defineConfig({
     testTransformMode: { web: ["/\.tsx?$/"] },
     include: ['src/**/*.test.{ts,tsx}'],
     exclude: ['**/node_modules/**', '**/playwright/**']
-  },
-  resolve: {
-    conditions: ['development', 'browser'],
   }
-})
+}))

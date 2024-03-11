@@ -4,7 +4,7 @@ const poppins = Poppins({
   variable: '--font-poppins',
   display: 'swap',
   subsets: ['latin', 'latin-ext'],
-  weight: ['400', '500', '600']
+  weight: ['500', '600', '700']
 })
 
 export default poppins

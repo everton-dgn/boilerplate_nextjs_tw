@@ -1,12 +1,16 @@
 <div align="center">
 
-<a href="./LICENSE">![GitHub](https://img.shields.io/github/license/everton-dgn/boilerplate_nextjs_app?style=plastic)</a>
-![GitHub repo size](https://img.shields.io/github/repo-size/everton-dgn/boilerplate_nextjs_app?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/everton-dgn/boilerplate_nextjs_app?color=yellow&style=plastic)
+<a href="./LICENSE">![GitHub](https://img.shields.
+io/github/license/everton-dgn/boilerplate_nextjs_tw?style=plastic)</a>
+![GitHub repo size](https://img.shields.
+io/github/repo-size/everton-dgn/boilerplate_nextjs_tw?style=plastic)
+![GitHub Repo stars](https://img.shields.
+io/github/stars/everton-dgn/boilerplate_nextjs_tw?color=yellow&style=plastic)
 
 </div>
 
-<h1 align="center">Boilerplate Complete and updated with Next.js, Typescript, SASS, Tests and more</h1>
+<h1 align="center">Boilerplate Complete and updated with Next.js, Typescript,
+TailwindCSS, Tests and more</h1>
 
 <br />
 
@@ -53,9 +57,9 @@ In addition to being constantly updated, this project was configured in the smal
 
 🔥 TypeScript
 
-💅 SASS
+💅 TailwindCSS
 
-🚩 Lints: Husky, ESlint, Stylelint, Commitlint, Lint-Staged, Prettier and Typecheck
+🚩 Lints: Husky, ESlint, Commitlint, Lint-Staged, Prettier and Typecheck
 
 ✅ Vitest
 
@@ -83,7 +87,7 @@ In addition to being constantly updated, this project was configured in the smal
 
 - node (latest version lts).
 
-- yarn (latest version lts).
+- yarn.
 
 <br />
 
@@ -94,7 +98,7 @@ In addition to being constantly updated, this project was configured in the smal
 ## Clone Repository
 
 ```bash
-git clone https://github.com/everton-dgn/boilerplate_nextjs_app.git
+git clone https://github.com/everton-dgn/boilerplate_nextjs_tw.git
 ```
 
 ## Install Dependencies

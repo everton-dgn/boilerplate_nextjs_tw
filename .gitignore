@@ -40,5 +40,4 @@ tsconfig.tsbuildinfo
 
 # linters
 .eslintcache
-.stylelintcache
 .husky
