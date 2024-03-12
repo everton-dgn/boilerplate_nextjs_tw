@@ -85,7 +85,6 @@
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-tailwindcss": "^3.14.2",
     "eslint-plugin-testing-library": "^6.1.0",
-    "@tailwindcss/container-queries": "^0.1.1",
     "happy-dom": "^13.2.0",
     "autoprefixer": "^10.4.17",
     "husky": "^8.0.3",

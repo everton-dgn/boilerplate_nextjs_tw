@@ -1,15 +1,13 @@
 import defaultTheme from 'tailwindcss/defaultTheme'
 import type { Config } from 'tailwindcss'
 
-import containerQueries from '@tailwindcss/container-queries'
-
 import {
   colors,
   zIndex,
-  spacing,
-  fontWeight,
-  fontSize,
-  boxShadow,
+  spacings,
+  fontWeights,
+  fontSizes,
+  boxShadows,
   borderRadius,
   screens,
   keyframes
@@ -17,34 +15,36 @@ import {
 import { utilities } from './src/theme/utilities'
 import { components } from './src/theme/components'
 
-export default {
+const config: Config = {
   content: [
     './src/app/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    fontSize,
-    fontWeight,
+    screens,
+    colors,
+    zIndex,
+    borderRadius,
+    fontWeight: fontWeights,
+    fontSize: fontSizes,
+    fontFamily: {
+      sans: 'var(--font-poppins)'
+    },
     extend: {
-      width: { ...defaultTheme.width, ...spacing },
-      height: { ...defaultTheme.height, ...spacing },
-      screens,
-      spacing: { ...defaultTheme.spacing, ...spacing },
-      colors,
-      borderRadius: { ...defaultTheme.borderRadius, ...borderRadius },
-      borderWidth: { ...defaultTheme.borderWidth, ...spacing },
-      zIndex: { ...defaultTheme.zIndex, ...zIndex },
-      boxShadow: { ...defaultTheme.boxShadow, ...boxShadow },
-      fontFamily: {
-        sans: 'var(--font-poppins)'
-      },
+      width: { ...defaultTheme.width, ...spacings },
+      height: { ...defaultTheme.height, ...spacings },
+      spacing: { ...defaultTheme.spacing, ...spacings },
+      borderWidth: { ...defaultTheme.borderWidth, ...spacings },
+      boxShadow: { ...defaultTheme.boxShadow, ...boxShadows },
+      keyframes: { ...defaultTheme.keyframes, ...keyframes },
       aspectRatio: {
         ...defaultTheme.aspectRatio,
         '600/317': '600/317',
         '10/7': '10/7'
-      },
-      keyframes: { ...defaultTheme.keyframes, ...keyframes }
+      }
     }
   },
-  plugins: [containerQueries, ...components, ...utilities]
-} satisfies Config
+  plugins: [...components, ...utilities]
+}
+
+export default config
