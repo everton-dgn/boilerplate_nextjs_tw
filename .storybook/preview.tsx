@@ -1,9 +1,11 @@
 import type { Preview } from '@storybook/react'
-import viewports from './viewports'
-import '../src/theme/globals.css'
-import './style.css'
+
 import { MainProvider } from '../src/providers/mainProvider'
 import poppins from '../src/theme/variables/fontFamily'
+import viewports from './viewports'
+
+import '../src/theme/globals.css'
+import './style.css'
 
 const preview: Preview = {
   decorators: [
