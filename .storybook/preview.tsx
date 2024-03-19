@@ -1,7 +1,7 @@
 import type { Preview } from '@storybook/react'
 
 import { MainProvider } from '../src/providers/mainProvider'
-import poppins from '../src/theme/variables/fontFamily'
+import poppins from '../src/theme/fontFamily'
 import viewports from './viewports'
 
 import '../src/theme/globals.css'

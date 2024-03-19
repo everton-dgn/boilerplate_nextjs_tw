@@ -4,7 +4,7 @@ import type { ButtonProps } from './types'
 
 export const Button = ({ label, ...props }: ButtonProps) => (
   <button
-    className="flex size-fit cursor-pointer rounded-4 bg-tertiary px-20 py-8 text-14 font-500 text-white transition-colors ease-in-out center hover:bg-tertiary-hover"
+    className="fs-md flex size-fit cursor-pointer rounded-md bg-sky-700 px-10 py-4 text-white transition-colors ease-in-out center fw-medium hover:bg-sky-500 active:bg-sky-700"
     {...props}
   >
     {label}

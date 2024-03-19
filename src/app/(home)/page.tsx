@@ -3,12 +3,12 @@ import Image from 'next/image'
 import { CounterButton } from 'components/atoms'
 
 const Home = () => (
-  <div className="h-full grow p-16 center col-full">
-    <header className="mb-32 text-center text-32 font-600" role="banner">
+  <div className="h-full grow p-16 col-full center">
+    <header className="mb-5 text-center fs-3xl fw-semibold" role="banner">
       Boilerplate
     </header>
-    <main className="h-fit p-0 center col g-32">
-      <div className="flex-wrap px-8 py-0 jc-center row-full g-32">
+    <main className="h-fit p-0 col center g-5">
+      <div className="flex-wrap px-4 py-0 g-5 jc-center row-full">
         <Image
           alt="Logo Nextjs"
           height={77}
@@ -26,7 +26,7 @@ const Home = () => (
           className="relative sm:h-[155px] sm:w-[174px] sm:min-w-[174px]"
         />
       </div>
-      <h1 className="text-center text-32 font-500">Nextjs + React</h1>
+      <h1 className="text-center fs-3xl fw-medium">Nextjs + React</h1>
       <CounterButton />
     </main>
   </div>

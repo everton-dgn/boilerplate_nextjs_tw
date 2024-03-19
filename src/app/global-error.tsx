@@ -1,6 +1,6 @@
 'use client'
 
-import poppins from 'theme/variables/fontFamily'
+import poppins from 'theme/fontFamily'
 
 import { Error } from 'components/organisms'
 
