@@ -8,7 +8,7 @@ const Home = () => (
       Boilerplate
     </header>
     <main className="h-fit p-0 col center g-5">
-      <div className="row-full px-4 py-0 f-wrap g-5 jc-center">
+      <div className="px-4 py-0 f-wrap g-5 jc-center row-full">
         <Image
           alt="Logo Nextjs"
           height={77}
