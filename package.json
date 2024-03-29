@@ -43,7 +43,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eleganceui-tailwind-utilities": "^2.4.1",
+    "eleganceui-tailwind-utilities": "^2.4.4",
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
     "@playwright/test": "^1.41.0",
