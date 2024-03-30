@@ -4,7 +4,7 @@ import { CounterButton } from 'components/atoms'
 
 const Home = () => (
   <div className="h-full grow p-16 col-full center">
-    <header className="mb-5 text-center fs-3xl-semibold" role="banner">
+    <header className="mb-5 fs-3xl-semibold tx-center" role="banner">
       Boilerplate
     </header>
     <main className="h-fit p-0 col center g-5">
@@ -26,7 +26,7 @@ const Home = () => (
           className="relative sm:h-[155px] sm:w-[174px] sm:min-w-[174px]"
         />
       </div>
-      <h1 className="text-center fs-3xl-medium">Nextjs + React</h1>
+      <h1 className="fs-3xl-medium tx-center">Nextjs + React</h1>
       <CounterButton />
     </main>
   </div>

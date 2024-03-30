@@ -5595,10 +5595,10 @@ electron-to-chromium@^1.4.668:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.699.tgz#dd53c939e13da64e94b341e563f0a3011b4ef0e9"
   integrity sha512-I7q3BbQi6e4tJJN5CRcyvxhK0iJb34TV8eJQcgh+fR2fQ8miMgZcEInckCo1U9exDHbfz7DLDnFn8oqH/VcRKw==
 
-eleganceui-tailwind-utilities@^2.4.4:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/eleganceui-tailwind-utilities/-/eleganceui-tailwind-utilities-2.4.4.tgz#002eedd7d986570d8f597245e8c8a6f55cd5156f"
-  integrity sha512-Th9YnaYt/qrqomSS8VGmrFjtLSkRHBLtLbc9Oj7rn7jqYHWnUZHLy5hv06lJGvPf//D9HXtKPesE1k2FfN/lnA==
+eleganceui-tailwind-utilities@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eleganceui-tailwind-utilities/-/eleganceui-tailwind-utilities-3.0.0.tgz#0abea7ebc2c06bd1ab0d9a600fe945528bddaee2"
+  integrity sha512-/M7jpzj5WB+rjK7IIpTkEDtE4gxwQgAUuFJNJ+roJJtt1HUvIM6FLVdHipDGZSulNjmEfY/F7RcV2Ne5+SQc1w==
 
 elliptic@^6.5.3, elliptic@^6.5.4:
   version "6.5.4"

@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss'
-import * as customUtilities from 'eleganceui-tailwind-utilities'
+import eleganceUIUtilities from 'eleganceui-tailwind-utilities'
 
 const config: Config = {
   content: [
@@ -12,7 +12,7 @@ const config: Config = {
     },
     extend: {}
   },
-  plugins: [...Object.values(customUtilities)]
+  plugins: [...eleganceUIUtilities]
 }
 
 export default config

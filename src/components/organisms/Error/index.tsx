@@ -10,7 +10,7 @@ export const Error = ({ reset }: ErrorProps) => (
       Error!
     </header>
     <main className="p-0 ai-center col-full g-5">
-      <h1 className="text-center fs-3xl-medium">Page not found!</h1>
+      <h1 className="fs-3xl-medium tx-center">Page not found!</h1>
       <Button label="Try again" onClick={reset} />
     </main>
   </div>
