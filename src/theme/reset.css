@@ -28,11 +28,7 @@
   }
 
   body {
-    @apply isolate min-h-screen bg-[linear-gradient(45deg,_#000,_#041627,_#046a81)] pb-[50px] tx-white jc-start col-full;
-
-    @screen sm {
-      @apply pb-0;
-    }
+    @apply isolate min-h-screen bg-[linear-gradient(45deg,_#000,_#041627,_#046a81)] tx-white jc-start col-full;
   }
 
   p,
