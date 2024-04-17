@@ -28,7 +28,7 @@
   }
 
   body {
-    @apply isolate min-h-screen bg-[linear-gradient(45deg,_#000,_#041627,_#046a81)] tx-white jc-start col-full;
+    @apply isolate min-h-screen bg-[linear-gradient(45deg,_#000,_#041627,_#046a81)] text-white jc-start col-full;
   }
 
   p,
